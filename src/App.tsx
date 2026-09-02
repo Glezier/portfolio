@@ -1,67 +1,17 @@
+import { Navbar } from './components/Navbar'
+import { Hero } from './components/Hero'
+import Projects from './components/Projects'
 import './App.css'
 
 export default function App() {
   return (
     <>
-      <header className="site-header">
-        <nav className="container" aria-label="Navegação principal">
-          <a className="logo" href="#inicio">
-            GM
-          </a>
-
-          <ul className="nav-links">
-            <li>
-              <a href="#sobre">Sobre</a>
-            </li>
-            <li>
-              <a href="#projetos">Projetos</a>
-            </li>
-            <li>
-              <a href="#tecnologias">Tecnologias</a>
-            </li>
-            <li>
-              <a href="#experiencia">Experiência</a>
-            </li>
-            <li>
-              <a href="#contato">Contato</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <Navbar />
 
       <main>
-        <section id="inicio" className="hero section">
-          <div className="container">
-            <p className="eyebrow">Olá, eu sou</p>
+        <Hero />
 
-            <h1>Glezier Montalvane</h1>
-
-            <h2>Full Stack Developer</h2>
-
-            <p className="hero-description">
-              Desenvolvedor focado na construção de aplicações web, APIs
-              e soluções completas de software, do banco de dados à
-              interface.
-            </p>
-
-            <div className="hero-actions">
-              <a className="button button-primary" href="#projetos">
-                Ver projetos
-              </a>
-
-              <a className="button button-secondary" href="#contato">
-                Entrar em contato
-              </a>
-            </div>
-          </div>
-        </section>
-
-        <section id="projetos" className="section">
-          <div className="container">
-            <h2>Projetos</h2>
-            <p>Projetos selecionados serão apresentados aqui.</p>
-          </div>
-        </section>
+        <Projects />
 
         <section id="sobre" className="section">
           <div className="container">
