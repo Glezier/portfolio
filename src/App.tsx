@@ -1,6 +1,8 @@
-import { Navbar } from './components/Navbar'
-import { Hero } from './components/Hero'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 import Projects from './components/Projects'
+import About from './components/About'
+import Technologies from './components/Technologies'
 import './App.css'
 
 export default function App() {
@@ -13,19 +15,9 @@ export default function App() {
 
         <Projects />
 
-        <section id="sobre" className="section">
-          <div className="container">
-            <h2>Sobre</h2>
-            <p>Minha apresentação profissional será construída aqui.</p>
-          </div>
-        </section>
+        <About />
 
-        <section id="tecnologias" className="section">
-          <div className="container">
-            <h2>Tecnologias</h2>
-            <p>As tecnologias serão organizadas por categoria.</p>
-          </div>
-        </section>
+        <Technologies />
 
         <section id="experiencia" className="section">
           <div className="container">

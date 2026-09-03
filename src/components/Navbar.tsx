@@ -1,4 +1,4 @@
-export function Navbar() {
+export default function Navbar() {
   return (
     <header className="site-header">
       <nav className="container" aria-label="Navegação principal">
