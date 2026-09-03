@@ -1,4 +1,4 @@
-import type { TechnologyCategory } from "../types/technologies"
+import type { TechnologyCategory } from "../types/Technology"
 
 export const technologyCategories: TechnologyCategory[] = [
     {

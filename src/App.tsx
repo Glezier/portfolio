@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Projects from './components/Projects'
 import About from './components/About'
 import Technologies from './components/Technologies'
+import Experiences from './components/Experiences'
 import './App.css'
 
 export default function App() {
@@ -19,12 +20,7 @@ export default function App() {
 
         <Technologies />
 
-        <section id="experiencia" className="section">
-          <div className="container">
-            <h2>Experiência</h2>
-            <p>Experiências acadêmicas e profissionais aparecerão aqui.</p>
-          </div>
-        </section>
+        <Experiences />
 
         <section id="contato" className="section">
           <div className="container">
