@@ -4,6 +4,7 @@ import Projects from './components/Projects'
 import About from './components/About'
 import Technologies from './components/Technologies'
 import Experiences from './components/Experiences'
+import Services from './components/Services'
 import './App.css'
 
 export default function App() {
@@ -21,6 +22,8 @@ export default function App() {
         <Technologies />
 
         <Experiences />
+
+        <Services />
 
         <section id="contato" className="section">
           <div className="container">
