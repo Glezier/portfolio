@@ -29,14 +29,15 @@ export const experiences: Experience[] = [
     id: 'programming-contest',
     type: 'competition',
     title: 'Maratona de Programação',
-    organization: 'NOME DO EVENTO OU INSTITUIÇÃO',
-    period: 'ANO DA PARTICIPAÇÃO',
+    organization: 'SBC',
+    period: '2026',
     description:
-      'Participação em equipe na resolução de problemas de algoritmos e estruturas de dados sob limite de tempo.',
+      'Participação em equipe na resolução de problemas de algoritmos e estruturas de dados em programação competitiva.',
     highlights: [
       'Resolução de problemas',
       'Trabalho em equipe',
       'Algoritmos e estruturas de dados',
+      'Programação competitiva'
     ],
   },
 ]
