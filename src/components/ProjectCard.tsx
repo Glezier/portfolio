@@ -30,6 +30,14 @@ export default function ProjectCard ({ project }: ProjectCardProps){
 
                 <p className="project-description">{project.description}</p>
 
+                {project.highlights ? (
+                    <ul className="project-highlights" aria-label="Destaques do projeto">
+                        {project.highlights.map((highlight) => (
+                            <li key={highlight}>{highlight}</li>
+                        ))}
+                    </ul>
+                ) : null}
+
                 <ul className="technology-list" aria-label="Tecnologias utilizadas">
                     {project.technologies.map((technology) => (
                         <li key={technology}>{technology}</li>

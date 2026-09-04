@@ -17,7 +17,7 @@ export const experiences: Experience[] = [
     organization: 'TeleMídia - MA',
     period: '2026',
     description:
-      'Desenvolvimento de uma plataforma voltada a esniso de programação seguindo o BNCC Computação. Contou com expansão da plataforma para municípios e interiores do Maranhão.',
+      'Desenvolvimento de uma plataforma voltada a ensino de programação seguindo o BNCC Computação. Contou com expansão da plataforma para municípios e interiores do Maranhão.',
     highlights: [
       'Desenvolvimento da plataforma',
       'Produção de conteúdo básico de programação',

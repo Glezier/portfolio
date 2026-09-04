@@ -1,6 +1,6 @@
 import type { Project } from "../types/Project";
 
-import dashboarImage from "../assets/mygmanager/Dashboard.png";
+import dashboardImage from "../assets/mygmanager/Dashboard.png";
 
 export const projects: Project[] = [
     {
@@ -17,7 +17,14 @@ export const projects: Project[] = [
             'JWT'
         ],
         featured: true,
-        image: dashboarImage,
+        highlights: [
+            'Organização por calendário',
+            'Sistema de notas',
+            'Autenticação de usuários',
+            'Persistência de dados',
+            'Deploy em produção',
+        ],
+        image: dashboardImage,
         imageAlt: 'Tela principal do My GManager com recursos de organização pessoal',
         githubUrl: 'https://github.com/Glezier/GManager',
         liveUrl: 'https://www.mygmanager.com.br/'

@@ -540,3 +540,28 @@
     grid-template-columns: 1fr;
   }
 }
+
+.project-highlights {
+  display: grid;
+  gap: 10px;
+  margin: 28px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-highlights li {
+  position: relative;
+  padding-left: 18px;
+  color: #d7dbe5;
+}
+
+.project-highlights li::before {
+  content: '';
+  position: absolute;
+  top: 0.7em;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #8da6ff;
+}
