@@ -6,6 +6,7 @@ import Technologies from './components/Technologies'
 import Experiences from './components/Experiences'
 import Services from './components/Services'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import './App.css'
 
 export default function App() {
@@ -29,11 +30,7 @@ export default function App() {
         <Contact />
       </main>
 
-      <footer className="site-footer">
-        <div className="container">
-          <p>Glezier Montalvane</p>
-        </div>
-      </footer>
+      <Footer />
     </>
   )
 }

@@ -156,7 +156,49 @@
 
 .site-footer {
   padding-block: 32px;
+  border-top: 1px solid #222631;
   color: #737b8c;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 24px;
+  align-items: center;
+}
+
+.footer-name {
+  margin: 0;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.footer-role {
+  margin: 4px 0 0;
+  color: #737b8c;
+  font-size: 0.925rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.footer-links a {
+  color: #a9afbd;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-copy {
+  margin: 0;
+  color: #737b8c;
+  font-size: 16px;
 }
 
 @media (max-width: 720px) {
@@ -183,6 +225,11 @@
   .nav-social-links a {
     padding-inline: 8px;
     font-size: 0.8125rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 18px;
   }
 }
 
