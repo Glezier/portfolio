@@ -5,6 +5,7 @@ import About from './components/About'
 import Technologies from './components/Technologies'
 import Experiences from './components/Experiences'
 import Services from './components/Services'
+import Contact from './components/Contact'
 import './App.css'
 
 export default function App() {
@@ -25,15 +26,7 @@ export default function App() {
 
         <Services />
 
-        <section id="contato" className="section">
-          <div className="container">
-            <h2>Vamos desenvolver algo juntos?</h2>
-            <p>
-              Disponível para oportunidades profissionais, projetos
-              freelance e colaborações em software.
-            </p>
-          </div>
-        </section>
+        <Contact />
       </main>
 
       <footer className="site-footer">

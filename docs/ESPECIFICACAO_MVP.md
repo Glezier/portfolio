@@ -113,3 +113,7 @@ O MVP estará pronto quando posicionar claramente Glezier, apresentar o GManager
 ## Evolução
 
 O site poderá receber projetos, cases, trabalhos freelance, versão em inglês, artigos e depoimentos. Um projeto novo só deve entrar quando representar o nível atual, acrescentar uma competência relevante, possuir autoria e documentação claras e puder ser explicado em uma entrevista.
+
+
+Navbar → Experiências → Projeto GManager → Contact/Footer → Responsividade → Deploy.
+readme e ajustar o css todo
