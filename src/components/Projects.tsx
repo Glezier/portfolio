@@ -20,6 +20,22 @@ export default function Projects(){
                         <ProjectCard key={project.id} project={project} />
                     ))}
                 </div>
+
+                <div className="projects-more">
+                    <p>
+                        Além dos projetos destacados aqui, mantenho outros estudos,
+                        experimentos e aplicações no GitHub.
+                    </p>
+
+                    <a
+                        className="button button-secondary"
+                        href="https://github.com/Glezier"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Ver mais no GitHub
+                    </a>
+                </div>
             </div>
         </section>
     )

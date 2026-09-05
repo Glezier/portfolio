@@ -85,6 +85,31 @@
   font-weight: 700;
 }
 
+.icon{
+  width: 12px;
+}
+
+.nav-toggle {
+  display: none;
+  min-height: 36px;
+  padding: 8px 10px;
+  border: 1px solid #353b49;
+  border-radius: 8px;
+  color: #d7dbe5;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    border-color 180ms ease,
+    color 180ms ease;
+}
+
+.nav-toggle:hover {
+  border-color: #8da6ff;
+  color: #ffffff;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -167,6 +192,24 @@
 .projects-grid {
   display: grid;
   gap: 24px;
+}
+
+.projects-more {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 32px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  border: 1px solid #292e39;
+  border-radius: 8px;
+  background-color: #0e1117;
+}
+
+.projects-more p {
+  max-width: 620px;
+  margin: 0;
 }
 
 .project-card {
@@ -584,12 +627,37 @@
   }
 
   .nav-content {
+    position: relative;
     min-height: 64px;
-    gap: 16px;
+    gap: 12px;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .nav-links {
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 16px;
+    right: 16px;
     display: none;
+    padding: 16px;
+    border: 1px solid #292e39;
+    border-radius: 8px;
+    background-color: #11141b;
+  }
+
+  .nav-links-open {
+    display: grid;
+    gap: 12px;
+  }
+
+  .nav-links a {
+    display: block;
+    padding-block: 8px;
   }
 
   .nav-social-links {
@@ -635,6 +703,14 @@
   .technologies-grid,
   .services-grid {
     grid-template-columns: 1fr;
+  }
+
+  .projects-more {
+    align-items: stretch;
+  }
+
+  .projects-more .button {
+    width: 100%;
   }
 
   .footer-content {

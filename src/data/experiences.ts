@@ -39,5 +39,9 @@ export const experiences: Experience[] = [
       'Algoritmos e estruturas de dados',
       'Programação competitiva'
     ],
+    link: {
+      label: 'Post no LinkedIn referente à participação na maratona',
+      url: 'https://lnkd.in/p/eCHJiZxD'
+    }
   },
 ]

@@ -1,3 +1,6 @@
+import { useState } from "react"
+import Menu from "../assets/menu.png"
+
 const navigationLinks = [
   { label: 'Sobre', href: '#sobre' },
   { label: 'Projetos', href: '#projetos' },
@@ -19,6 +22,12 @@ const socialLinks = [
 ]
 
 export default function Navbar() {
+  const [isMenuOpen, setIsMenuOPen] = useState(false);
+
+  function closeMenu(){
+    setIsMenuOPen(false);
+  }
+
   return (
     <header className="site-header">
       <nav className="container nav-content" aria-label="Navegação principal">
@@ -26,10 +35,23 @@ export default function Navbar() {
           GM
         </a>
 
-        <ul className="nav-links">
+        <button
+          className="nav-toggle"
+          type="button"
+          aria-expanded={isMenuOpen}
+          aria-controls="mobile-navigation"
+          onClick={() => setIsMenuOPen((atual) => !atual)}
+        >
+          <img src={Menu} className="icon" />
+        </button>
+
+        <ul 
+          id='mobile-navigation'
+          className={isMenuOpen ? 'nav-links nav-links-open': 'nav-links'}
+        >
           {navigationLinks.map((link) => (
             <li key={link.href}>
-              <a href={link.href}>{link.label}</a>
+              <a href={link.href} onClick={closeMenu}>{link.label}</a>
             </li>
           ))}
         </ul>

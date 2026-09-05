@@ -28,5 +28,22 @@ export const projects: Project[] = [
         imageAlt: 'Tela principal do My GManager com recursos de organização pessoal',
         githubUrl: 'https://github.com/Glezier/GManager',
         liveUrl: 'https://www.mygmanager.com.br/'
+    },
+    {
+        id: 'redesocialgrafos',
+        title: 'SocialNet',
+        category: 'Trabalho final Estrutura de Dados II',
+        description: 'Rede social implementada utilizando grafos. Conta com algorítmos clássicos como BFS, DFS, Dijkstra e Prim.',
+        technologies: [
+            'Java'
+        ],
+        featured: false,
+        highlights: [
+            'Detecção de ciclos',
+            'Agrupar usuários por interesse',
+            'Recomendação da amizade',
+            'Identificação de comunidades'
+        ],
+        githubUrl: 'https://github.com/Glezier/RedeSocialGrafosED2',
     }
 ]

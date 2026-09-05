@@ -9,7 +9,7 @@ export const technologyCategories: TechnologyCategory[] = [
     {
         id: 'backend',
         title: 'Backend',
-        technologies: ['SpringBoot', 'Node.js', 'Express']
+        technologies: ['Spring Boot', 'Node.js', 'Express']
     },
     {
         id: 'database',
