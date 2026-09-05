@@ -524,29 +524,56 @@
   align-items: start;
 }
 
-.contact-card {
-  display: grid;
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
   gap: 14px;
+  margin-top: 28px;
+}
+
+.contact-links a {
+  color: #8da6ff;
+  font-weight: 600;
+}
+
+.contact-links a:hover {
+  color: #b3c2ff;
+}
+
+.contact-form {
+  display: grid;
+  gap: 16px;
   padding: 28px;
   border: 1px solid #292e39;
   border-radius: 8px;
   background-color: #11141b;
 }
 
-.contact-card a {
-  display: flex;
-  min-height: 48px;
-  align-items: center;
-  padding-inline: 16px;
-  border: 1px solid #353b49;
-  border-radius: 8px;
-  color: #e8eaf0;
+.contact-form label {
+  display: grid;
+  gap: 8px;
+  color: #d7dbe5;
   font-weight: 600;
 }
 
-.contact-card a:hover {
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #353b49;
+  border-radius: 8px;
+  color: #e8eaf0;
+  background-color: #0b0d12;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
   border-color: #8da6ff;
-  color: #ffffff;
+  outline: none;
+}
+
+.contact-form textarea {
+  resize: vertical;
 }
 
 .site-footer {
@@ -735,7 +762,7 @@
   .project-content,
   .technology-category,
   .service-card,
-  .contact-card {
+  .contact-form {
     padding: 22px;
   }
 }

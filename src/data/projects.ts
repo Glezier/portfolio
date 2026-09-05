@@ -33,7 +33,7 @@ export const projects: Project[] = [
         id: 'redesocialgrafos',
         title: 'SocialNet',
         category: 'Trabalho final Estrutura de Dados II',
-        description: 'Rede social implementada utilizando grafos. Conta com algorítmos clássicos como BFS, DFS, Dijkstra e Prim.',
+        description: 'Rede social implementada utilizando grafos. Conta com algoritmos clássicos como BFS, DFS, Dijkstra e Prim.',
         technologies: [
             'Java'
         ],
@@ -41,7 +41,7 @@ export const projects: Project[] = [
         highlights: [
             'Detecção de ciclos',
             'Agrupar usuários por interesse',
-            'Recomendação da amizade',
+            'Recomendação de amizade',
             'Identificação de comunidades'
         ],
         githubUrl: 'https://github.com/Glezier/RedeSocialGrafosED2',
