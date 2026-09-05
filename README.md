@@ -1,29 +1,31 @@
-# Portfólio — Glezier Montalvane
+# Glezier Montalvane | Portfólio
 
-Portfólio pessoal e profissional desenvolvido para apresentar meus projetos, experiências e competências como desenvolvedor Full Stack.
+Portfólio pessoal desenvolvido para apresentar minha atuação como **Full Stack Developer**, reunindo projetos, tecnologias, experiências acadêmicas/profissionais e formas de contato.
 
-O objetivo não é apenas listar tecnologias, mas demonstrar sua aplicação por meio de projetos e experiências reais.
+O objetivo do projeto é funcionar como uma vitrine profissional simples, responsiva e direta, com foco em demonstrar aplicações reais e evolução técnica.
 
-## Tecnologias
+## Stack
 
 - React
 - TypeScript
 - Vite
-- CSS
-- ESLint
 
-## Funcionalidades implementadas
+## Conteúdo
 
-- Apresentação profissional
-- Projetos selecionados
-- Tecnologias organizadas por categoria
-- Experiências acadêmicas e profissionais
-- Serviços
-- Links para GitHub e LinkedIn
-- Contato
-- Layout responsivo
-- Acessibilidade e SEO básicos
+- apresentação profissional;
+- projetos selecionados;
+- tecnologias organizadas por categoria;
+- experiências acadêmicas e atividades relevantes;
+- serviços que posso desenvolver;
+- formulário e links de contato.
+
+## Desenvolvimento
+
+```bash
+npm install
+npm run dev
+```
 
 ## Autor
 
-Desenvolvido por Glezier Montalvane.
+Desenvolvido por **Glezier Montalvane**.

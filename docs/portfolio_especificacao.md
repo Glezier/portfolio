@@ -10,21 +10,9 @@ Cuidados:
 -   evitar animações pesadas;
 -   minimizar JavaScript enviado ao navegador;
 -   testar Lighthouse;
--   otimizar fontes.
-
-add formulario de contato
-
-add icone no head um  favicon e outras tags como:
-
-
-
+-   otimizar fontes
 o portfolio engloba adiçcao de cursos e certificados?
-adicionar um formulario de contato com nome, email, assunto e mensagem
 
-# implementei, fatal confirmar
-add um "ver mais no git hub" na aba de projetos
-add rede social com grafos porjeto
-link do post do linkedin da maratona de programação
 
 ajustar readme
 ja comprei dominio, falta fazer o deploy
