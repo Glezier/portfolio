@@ -26,6 +26,8 @@ npm install
 npm run dev
 ```
 
+Site disponível em https://www.glezier.com.br/
+
 ## Autor
 
 Desenvolvido por **Glezier Montalvane**.
