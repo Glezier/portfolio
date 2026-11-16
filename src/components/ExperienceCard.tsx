@@ -30,6 +30,31 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
           </ul>
         ) : null}
 
+        {experience.images ? (
+          <div
+            className="experience-gallery"
+            aria-label={`Fotos da experiência: ${experience.title}`}
+          >
+            {experience.images.map((image, index) => (
+              <figure
+                className={
+                  index === 0
+                    ? 'experience-photo experience-photo-featured'
+                    : 'experience-photo'
+                }
+                key={image.src}
+              >
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+            ))}
+          </div>
+        ) : null}
+
         {experience.link ? (
           <a
             className="experience-link"

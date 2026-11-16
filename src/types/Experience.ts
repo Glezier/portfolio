@@ -3,6 +3,12 @@ export type ExperienceType =
   | 'research'
   | 'competition'
   | 'professional'
+  | 'event'
+
+export interface ExperienceImage {
+  src: string
+  alt: string
+}
 
 export interface Experience {
   id: string
@@ -12,6 +18,7 @@ export interface Experience {
   period: string
   description: string
   highlights?: string[]
+  images?: ExperienceImage[]
   link?: {
     label: string
     url: string
