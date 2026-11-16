@@ -62,6 +62,34 @@
   background-color: transparent;
 }
 
+.button-resume {
+  gap: 10px;
+  border-color: transparent;
+  color: #8da6ff;
+  background-color: rgba(141, 166, 255, 0.08);
+}
+
+.button-resume:hover {
+  border-color: rgba(141, 166, 255, 0.45);
+  background-color: rgba(141, 166, 255, 0.14);
+}
+
+.button-resume span {
+  font-size: 20px;
+  line-height: 1;
+  transition: transform 180ms ease;
+}
+
+.button-resume:hover span {
+  transform: translateY(2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button-resume span {
+    transition: none;
+  }
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -501,8 +529,6 @@
   border-radius: 12px;
   background-color: #11141b;
 }
-
-
 
 .experience-photo-featured {
   grid-row: 1 / 3;

@@ -1,3 +1,5 @@
+import curriculo from '../assets/curriculo_glezier.pdf'
+
 const currentYear = new Date().getFullYear()
 
 export default function Footer() {
@@ -29,6 +31,13 @@ export default function Footer() {
           >
             LinkedIn
           </a>
+
+          <a
+          href={curriculo}
+          download="Curriculo-Glezier-Montalvane.pdf"
+        >
+          Currículo
+        </a>
         </div>
 
         <p className="footer-copy">

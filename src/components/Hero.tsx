@@ -1,3 +1,5 @@
+import curriculo from '../assets/curriculo_glezier.pdf'
+
 export default function Hero() {
   return (
     <section id="inicio" className="hero section">
@@ -21,6 +23,15 @@ export default function Hero() {
           <a className="button button-secondary" href="#contato">
             Entrar em contato
           </a>
+
+          <a
+          className="button button-resume"
+          href={curriculo}
+          download="Curriculo-Glezier-Montalvane.pdf"
+          aria-label="Baixar currículo de Glezier Montalvane em PDF"
+        >
+          Baixar currículo
+        </a>
         </div>
       </div>
     </section>

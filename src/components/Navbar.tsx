@@ -42,7 +42,7 @@ export default function Navbar() {
           aria-controls="mobile-navigation"
           onClick={() => setIsMenuOPen((atual) => !atual)}
         >
-          <img src={Menu} className="icon" />
+          <img src={Menu} className="icon" aria-hidden="true" />
         </button>
 
         <ul 
